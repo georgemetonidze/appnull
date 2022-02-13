@@ -4,8 +4,21 @@
 }
 
 .bg-lightgreen {
-    background-color:  #e1f8f6 !important;
+    background-color: #e1f8f6 !important;
 }
+
 .bg-green {
-    background-color:  #58af9b !important;
+    background-color: #58af9b !important;
+}
+.text-green{
+    color: #58af9b !important;
+}
+
+.custom-bg {
+    background: url("/media/bg.png");
+    min-height:60vh;
+}
+
+.max-width-250 {
+    max-width:250px;
 }
