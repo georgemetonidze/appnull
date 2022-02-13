@@ -35,16 +35,16 @@ class CreateUsers extends Component
 
         return view('livewire.create-users', [
             'users' => AppUsers::all()
-                ->where('created_at', '>', Carbon::now()->subMinutes(5)->toDateTimeString())
+//                ->where('created_at', '>', Carbon::now()->subMinutes(5)->toDateTimeString())
         ]);
     }
 
 
 
-    public function updated($key, $value)
-    {
-        $this->validateOnly($key);
-    }
+//    public function updated($key, $value)
+//    {
+//        $this->validateOnly($key);
+//    }
 
     public function save()
     {

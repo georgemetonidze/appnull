@@ -3,6 +3,9 @@
     opacity: 1; /* Firefox */
 }
 
-.bg-success {
-    color: #e1f8f6;
+.bg-lightgreen {
+    background-color:  #e1f8f6 !important;
+}
+.bg-green {
+    background-color:  #58af9b !important;
 }
