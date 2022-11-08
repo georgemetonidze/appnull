@@ -26,6 +26,27 @@
                                 @enderror
                             </div>
                         </div>
+
+                        <div class="form-group row mt-4 ">
+                            <div class="col-12">
+                                <input wire:model="email" type="text" placeholder="email" name="email"
+                                       class="bg-lightgreen form-control @error('email') is-invalid @enderror"/>
+                                @error('email')
+                                <span class="invalid-feedback" role="alert">{{ $message }}</span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row mt-4 ">
+                            <div class="col-12">
+                                <input wire:model="password" type="text" placeholder="password" name="password"
+                                       class="bg-lightgreen form-control @error('password') is-invalid @enderror"/>
+                                @error('password')
+                                <span class="invalid-feedback" role="alert">{{ $message }}</span>
+                                @enderror
+                            </div>
+                        </div>
+
                     {{--            COUNTRY--}}
 
                     <div class="form-group row mt-4 ">
@@ -67,27 +88,6 @@
                 </form>
             </div>
         </div>
-        <div class="row mt-3">
-            <div class="col-12 p-0">
-                <table class="table ">
-                    <thead>
-                    <tr>
-                        <th class="bg-green text-start">Name</th>
-                        <th class="bg-green text-center">country</th>
-                        <th class="bg-green text-end">birthday</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    @foreach ($users as $user)
-                        <tr class="p-1">
-                            <td class="bg-lightgreen text-start">{{ $user->name }}</td>
-                            <td class="bg-lightgreen text-center">{{ $user->name }}, {{ $user->country }}</td>
-                            <td class="bg-lightgreen text-end">{{ $user->birthdate }}</td>
-                        </tr>
-                    @endforeach
-                    </tbody>
-                </table>
-            </div>
-        </div>
+
     </div>
 </div>
