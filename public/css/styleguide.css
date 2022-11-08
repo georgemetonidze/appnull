@@ -1,0 +1,25 @@
+:root { 
+  --abbey: #4b4f4d;
+  --black: #000000;
+  --white: #ffffff;
+ 
+  --font-size-m: 18px;
+  --font-size-xxl: 44.7px;
+ 
+  --font-family-sf_compact-regular: "SF Compact-Regular", Helvetica;
+}
+.sfcompact-regular-normal-abbey-18px {
+  color: var(--abbey);
+  font-family: var(--font-family-sf_compact-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfcompact-regular-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-sf_compact-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

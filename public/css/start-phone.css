@@ -1,0 +1,225 @@
+/* screen - start-phone */
+
+.start-phone {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  height: 1080px;
+  padding: 145px 450px;
+  width: 1920px;
+}
+
+.start-phone .overlap-group {
+  height: 605px;
+  position: relative;
+  width: 1018px;
+}
+
+.start-phone .fields {
+  height: 445px;
+  left: 0;
+  position: absolute;
+  top: 160px;
+  width: 1018px;
+}
+
+.start-phone .texts {
+  align-items: flex-end;
+  border: 0px none;
+  display: flex;
+  height: 587px;
+  justify-content: center;
+  left: 23px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 970px;
+}
+
+.start-phone .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -14.63px;
+  min-height: 434px;
+  width: 90px;
+}
+
+.start-phone .place {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-left: 2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 80px;
+}
+
+.start-phone .name-2 {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-top: 19px;
+  text-align: center;
+  white-space: nowrap;
+  width: 90px;
+}
+
+.start-phone .name {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-top: 20px;
+  text-align: center;
+  white-space: nowrap;
+  width: 90px;
+}
+
+.start-phone .name-3 {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-top: 18px;
+  text-align: center;
+  white-space: nowrap;
+  width: 90px;
+}
+
+.start-phone .name-4 {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-top: 22px;
+  text-align: center;
+  white-space: nowrap;
+  width: 90px;
+}
+
+.start-phone .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -14.63px;
+  margin-left: 234px;
+  min-height: 602px;
+  width: 358px;
+}
+
+.start-phone .title {
+  color: #58af9b;
+  font-family: var(--font-family-sf_compact-regular);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  text-align: center;
+  white-space: nowrap;
+  width: 358px;
+}
+
+.start-phone .country {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-right: 4.0px;
+  margin-top: 121px;
+  text-align: center;
+  white-space: nowrap;
+  width: 98px;
+}
+
+.start-phone .name-5 {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-right: 4.0px;
+  margin-top: 21px;
+  text-align: center;
+  white-space: nowrap;
+  width: 86px;
+}
+
+.start-phone .name-1 {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-right: 4.0px;
+  margin-top: 20px;
+  text-align: center;
+  white-space: nowrap;
+  width: 86px;
+}
+
+.start-phone .name-6 {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-right: 4.0px;
+  margin-top: 18px;
+  text-align: center;
+  white-space: nowrap;
+  width: 86px;
+}
+
+.start-phone .name-7 {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-right: 4.0px;
+  margin-top: 22px;
+  text-align: center;
+  white-space: nowrap;
+  width: 86px;
+}
+
+.start-phone .date-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -14.63px;
+  margin-left: 181px;
+  min-height: 435px;
+  width: 137px;
+}
+
+.start-phone .date-of-birth {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-right: 2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 135px;
+}
+
+.start-phone .date {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-top: 20px;
+  text-align: center;
+  white-space: nowrap;
+  width: 101px;
+}
+
+.start-phone .date-1 {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-top: 18px;
+  text-align: center;
+  white-space: nowrap;
+  width: 101px;
+}
+
+.start-phone .date-2 {
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 44.7px;
+  margin-top: 22px;
+  text-align: center;
+  white-space: nowrap;
+  width: 101px;
+}
